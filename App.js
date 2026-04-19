@@ -9,7 +9,6 @@ WebBrowser.maybeCompleteAuthSession();
 
 export default function App() {
   const [user, setUser] = useState(null);
-
   const [request, response, promptAsync] = Google.useAuthRequest({
     //ADD YOUR OWN!!!
     webClientId: 'YOUR_WEB_CLIENT_ID',
